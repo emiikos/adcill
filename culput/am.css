@@ -1,0 +1,10 @@
+.element {
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: step-before;
+}
+
+@keyframes move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100px); }
+}
